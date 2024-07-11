@@ -40,7 +40,7 @@ To check remote URL
 To set CI/CD pipeline in heroku we need 3 information
 
 1.HEROKU_EMAIL = devtempmail91@gmail.com
-2.HEROKU_API_KEY = HRKU-de25ddf1-b2fb-44bf-9588-b1324f363dca
+2.HEROKU_API_KEY = <>
 3.HEROKU_APP_NAME = first-ml-regression-app
 
 BUILD DOCKER IMAGE
