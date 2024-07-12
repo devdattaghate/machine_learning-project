@@ -1,6 +1,6 @@
 # machine_learning-project
 This is my first ML project.
-
+CI CD pipeline has been established 
 
 creating conda environment 
 '''conda --version'''
