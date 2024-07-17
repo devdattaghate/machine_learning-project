@@ -68,3 +68,10 @@ To stop docker container
 '''
 docker stop <container id>
 '''
+
+
+
+
+'''
+python setup.py install 
+'''
