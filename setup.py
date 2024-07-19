@@ -1,12 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 #Declaring variables for setup function
 PROJECT_NAME= "housing-predictor"
-VERSION="0.0.1"
+VERSION="0.0.2"
 AUTHOR="Devdatta"
 DESCRIPTION= "This is first FSDS machine learning project"
-PACKAGES=["housing"]
 REQUIREMENT_FILE_NAME="requirements.txt"
 
 
@@ -25,10 +24,7 @@ name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description= DESCRIPTION,
-packages=PACKAGES,
+packages=find_packages(),
 install_requires=get_requirements_list()
 
 )
-
-if __name__=="__main__":
-    print(get_requirements_list)
