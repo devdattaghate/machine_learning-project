@@ -75,3 +75,11 @@ docker stop <container id>
 '''
 python setup.py install 
 '''
+
+'''
+Install ipykernel
+'''
+
+'''
+pip install ipykernel 
+'''
