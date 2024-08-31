@@ -70,7 +70,25 @@ class DataValidation:
             # 2.check the value of ocean proximity
             #acceptable values  
             # 3.check column names 
+            # train_file_path= self.data_ingestion_artifact.train_file_path
+            # test_file_path = self.data_ingestion_artifact.test_file_path
 
+            # is_train_file_exists = os.path.exists(train_file_path)
+            # is_test_file_exists = os.path.exists(test_file_path)
+            
+            # is_available = is_train_file_exists and is_test_file_exists 
+
+            # logging.info(f"Is train and test file exists?->{is_available}")
+
+            # if not is_available:
+            #     training_file = self.data_ingestion_artifact.train_file_path
+            #     testing_file = self.data_ingestion_artifact.test_file_path
+
+            #     massage = f"Training file: {training_file} or Testing file: {testing_file}" 
+            #     "is not present"
+            #     logging.info(massage)
+            #     raise Exception(massage) 
+            
 
             validation_status = True
             return validation_status
